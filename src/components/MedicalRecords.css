@@ -1,0 +1,18 @@
+/* MedicalRecords.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .grid-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  
