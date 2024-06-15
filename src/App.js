@@ -9,6 +9,7 @@ import Profile from './components/Profile';
 import Appointment from './components/Appointment';
 import ClinicRecords from './components/ClinicRecords';
 import Footer from './components/Footer';
+import BookAppointment from './components/BookAppointment';
 import NotFound from './components/NotFound';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/clinic-records" element={<ClinicRecords />} />
+          <Route path="/book/:cityName" element={<BookAppointment />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

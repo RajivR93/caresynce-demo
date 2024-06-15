@@ -15,7 +15,7 @@ const Footer = () => {
           background: '#0f6cbd',
           color: '#fff',
           padding: '10px 0',
-          position: 'fixed', // Fixed position
+          //position: 'fixed', // Fixed position
           bottom: 0, // Align to bottom of the viewport
           width: '100%' // Full width
         }
